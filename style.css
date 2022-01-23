@@ -1,0 +1,102 @@
+.container{
+    background: rgb(0,89,128);
+    background: linear-gradient(90deg, rgba(0,89,128,1) 12%, rgba(0,255,166,1) 91%);
+    width:1500px;
+    height:250px;
+    text-align:center;
+    padding-top: 50px;
+    font-style: bold;
+}
+h1{
+    color:white;
+    font-size:50px;
+}
+h2{
+    color:light white;
+    font-size:30px;
+}
+#home{
+    color:green;
+    font-size:30px;
+}
+#list{
+    color:grey;
+    font-size:30px;
+}
+
+  .main-container {
+    background: rgb(124, 255, 18);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+
+  .home-section,.facts-section,.specific-fact-section {
+    background: linear-gradient(to right, skyblue,white);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .home_render,.facts_render,.specific_fact_render{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  
+  .user-list {
+    background: linear-gradient(to right, #fa0dfa, #f80faa);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .user-container {
+    background: rgb(124, 255, 18);
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+  }
+  
+  .user-image {
+    border-radius: 70%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .user-name {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+  }
+  
+  input {
+    width: 50%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(34, 255, 189);
+    font-size: 30px;
+  }
+
+  button {
+    background-color: #1058f3;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    font-size: larger;
+  }

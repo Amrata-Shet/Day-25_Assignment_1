@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIME FACTS</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <section class="container">
+    <h1>Anime-facts-rest-api 🐱‍🚀</h1>
+    <h2>An API that will return anime facts</h2>
+    </section>  
+    <br><br>
+    <section class="main-container">
+    <section class="home-section">
+      <span id="home">Step 1 : Home Route</span><br><br>
+      <span id="list">Get all the available anime’s list :</span><br><br>
+      <button onclick="all_anime_data()" class="anime_list">Display Anime's List</button><br>
+    </section>
+    <section class="facts-section">
+        <span id="home">Step 2 : Anime Facts Route</span><br><br>
+        <span id="list">Get all facts related to an Anime :</span><br><br>
+        <input type="text" class="anime_name" placeholder="Enter Anime name"/>
+        <button onclick="take_name()">Anime Facts</button> 
+      </section>
+      <section class="specific-fact-section">
+        <span id="home">Step3 : Specific Fact Route</span><br><br>
+        <span id="list">Get all facts related to an Anime : </span><br><br>
+        <h2>Click on Specific Anime Fact</h2>
+      </section>
+    </section>
+    <section class="render">
+        <section class="home_render"></section>
+        <section class="facts_render"></section>
+        <section class="specific_fact_render"></section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
